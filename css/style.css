@@ -349,6 +349,15 @@ a#logo:hover {
   content: "Major: ";
 }
 
+.mentors ul {
+  margin:0;
+}
+
+.mentors li {
+  list-style:none;
+  text-align:left;
+  color:#990000;
+}
 
 /* CONTENT SECTION */
 
