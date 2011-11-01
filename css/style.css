@@ -280,6 +280,12 @@ a#logo:hover {
   margin-bottom: 0;
 }
 
+/* CREDIT */
+.credit {
+  text-align:center;
+  font-style:italic;
+}
+
 /* LEAD IN */
 
 .leadin {
@@ -310,15 +316,16 @@ a#logo:hover {
 .mentors {
   font-family:'Ubuntu Condensed', sand-serif;
   color: #000000;
-  margin-left:50px;
-  margin-right:20px;
-  border-top:4px dotted #434A44;
   font-size:15px;
 }
 
 .mentors div {
   margin-top:30px;
   border-bottom:2px #434A44;
+}
+
+.mentors h1 {
+  text-align:center;
 }
 
 /* mentor name */
