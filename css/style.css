@@ -340,7 +340,7 @@ a#logo:hover {
 
 /* mentor university */
 .mentors div span:nth-child(2) {
-  color:#3C2623;
+  color:#3C2623; 
   display:block;
 }
 
@@ -367,6 +367,33 @@ a#logo:hover {
   text-align:left;
   color:#990000;
 }
+
+/* TALK */
+.talk {
+  text-align:center;
+  color:#000000;
+}
+
+.talk div {
+  margin-top:20px;
+}
+
+/* talk title */
+.talk div span:first-child {
+  text-transform: uppercase;
+  display:block;
+  font-size:18px;
+  color:#990000;
+}
+
+.talk div span:nth-child(2) {
+  display:block;
+}
+
+.talk div span:nth-child(3) {
+  font-style:italic;
+}
+
 
 /* CONTENT SECTION */
 
@@ -412,6 +439,25 @@ a#logo:hover {
   text-decoration: none;
   color: #434A44
 }
+
+.eventinfo {
+  border-bottom: 4px solid #434A44;
+  display:block;
+  padding-bottom: 3px;
+  margin-bottom: 20px;
+  margin-top:50px;
+}
+
+.eventinfo div span:first-child {
+  font-size: 25px;
+}
+
+.eventinfo div span:nth-child(2) {
+  font-size: 12px;
+  margin-left:50px;
+  letter-spacing: 5px;
+}
+
 
 /* FOOTER */
 footer {
