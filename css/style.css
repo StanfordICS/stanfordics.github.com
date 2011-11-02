@@ -30,7 +30,7 @@ audio:not([controls]) { display: none; }
  * 3. Prevent iOS text size adjust on device orientation change, without disabling user zoom: h5bp.com/g
  */
 
-html { margin-right:100px; margin-left: 100px; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { margin-right:50px; margin-left: 50px; font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 body { margin: 0; font-size: 13px; line-height: 1.231; }
 
@@ -282,8 +282,9 @@ a#logo:hover {
 
 /* CREDIT */
 .credit {
-  text-align:center;
   font-style:italic;
+  text-align: right;
+  letter-spacing: 1px;
 }
 
 /* LEAD IN */
@@ -388,6 +389,8 @@ a#logo:hover {
   font-size: 25px;
   padding-bottom: 3px;
   margin-bottom: 20px;
+  margin-top:50px;
+  clear: both;
 }
 
 #main h2 {
@@ -407,6 +410,11 @@ a#logo:hover {
 #main a {
   text-decoration: none;
   color: #434A44
+}
+
+/* FOOTER */
+footer {
+  margin-top: 50px;
 }
 
 /* ==|== non-semantic helper classes ========================================
